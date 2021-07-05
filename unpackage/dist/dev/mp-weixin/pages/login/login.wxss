@@ -1,0 +1,75 @@
+.loginContainer {
+  height: 100vh;
+  background: #f0f7f9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.loginContainer .logo {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 130rpx 0;
+}
+.loginContainer .one {
+  font-size: 30rpx;
+  margin-bottom: 30rpx;
+  color: #999;
+}
+.loginContainer .two {
+  font-size: 28rpx;
+  color: #999;
+}
+.loginContainer button {
+  margin: 150rpx 0 80rpx 0;
+  width: 90%;
+  background: #acb73b;
+  font-size: 30rpx;
+  color: #fff;
+  border-radius: 50rpx;
+}
+.loginContainer .three {
+  font-size: 28rpx;
+  color: #999;
+  margin-bottom: 80rpx;
+}
+.loginContainer .footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 90%;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.loginContainer .footer .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.loginContainer .footer .item .itemImg {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+}
+.loginContainer .footer .item .itemText {
+  font-size: 28rpx;
+}
+.loginContainer .bottom {
+  margin-top: 60rpx;
+  font-size: 28rpx;
+  color: #acb73b;
+}
+

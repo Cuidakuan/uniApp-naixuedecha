@@ -1,0 +1,195 @@
+.myContainer {
+/* .bac */
+  height: 100%;
+  background-color: #f0f7f9;
+}
+.myContainer .bac {
+  height: 450rpx;
+  width: 100%;
+}
+.myContainer .header {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+  top: -80rpx;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  height: 280rpx;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+}
+.myContainer .header .login {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 30rpx;
+}
+.myContainer .header .login .avatar {
+  width: 140rpx;
+  height: 140rpx;
+  border: 10rpx solid #fff;
+  border-radius: 50%;
+  margin: -40rpx 25rpx 0 20rpx;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+}
+.myContainer .header .login .nickName {
+  font-weight: 700;
+  font-size: 32rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.myContainer .header .login .right {
+  display: block;
+  width: 150rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  background-color: #f9b61e;
+  color: #fff;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 30rpx 0 0 30rpx;
+}
+.myContainer .header .bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  text-align: center;
+}
+.myContainer .header .bottom .one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.myContainer .header .bottom .one .two {
+  font-size: 30rpx;
+}
+.myContainer .card {
+  width: 90%;
+  height: 240rpx;
+  background-color: #fff;
+  padding: 20rpx;
+  margin: -50rpx auto 30rpx;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+}
+.myContainer .card .top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.myContainer .card .top .left {
+  font-size: 30rpx;
+}
+.myContainer .card .top .right {
+  font-size: 28rpx;
+  color: #9acd32;
+}
+.myContainer .card .bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.myContainer .card .bottom .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.myContainer .card .bottom .item .itemImg {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 15rpx;
+}
+.myContainer .card .bottom .item .itemText {
+  font-size: 28rpx;
+}
+.myContainer .banner {
+  width: 90%;
+  margin: 0 auto;
+}
+.myContainer .banner .bannerImg {
+  width: 100%;
+  height: 180rpx;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+}
+.myContainer .footer {
+  width: 100%;
+  height: 440rpx;
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.myContainer .footer .title {
+  font-size: 32rpx;
+  font-weight: 700;
+  padding: 30rpx;
+}
+.myContainer .footer .pic {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.myContainer .footer .pic .item {
+  width: 25%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 35rpx;
+  position: relative;
+}
+.myContainer .footer .pic .item .littleImg {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 0;
+  right: 35rpx;
+}
+.myContainer .footer .pic .item .picImg {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 20rpx;
+}
+.myContainer .footer .pic .item .picText {
+  font-size: 30rpx;
+}
+.myContainer .footerText {
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+  margin: 30rpx;
+}
+

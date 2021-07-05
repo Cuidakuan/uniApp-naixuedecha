@@ -1,0 +1,1 @@
+<view class="takeFoodContainer"><image class="titleImg" src="../../../static/images/loading.gif" mode></image><view class="noOrder">您还没有点单</view><view class="recommend">快去犒劳一下自己吧~</view><button class="btn" type="default" data-event-opts="{{[['tap',[['toMenu',['$event']]]]]}}" bindtap="__e">去点餐</button><view class="history">查看历史订单</view></view>

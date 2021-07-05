@@ -1,0 +1,31 @@
+.takeFoodContainer .titleImg {
+  width: 260rpx;
+  height: 260rpx;
+  margin: 0 auto;
+  display: block;
+  margin-top: 200rpx;
+}
+.takeFoodContainer .noOrder {
+  text-align: center;
+  color: #919293;
+}
+.takeFoodContainer .recommend {
+  text-align: center;
+  color: #919293;
+  font-size: 34rpx;
+  margin-bottom: 20rpx;
+}
+.takeFoodContainer .btn {
+  width: 320rpx;
+  height: 84rpx;
+  background-color: #adb838;
+  border-radius: 60rpx;
+  color: #fff;
+}
+.takeFoodContainer .history {
+  text-align: center;
+  color: #adb838;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+
